@@ -27,7 +27,7 @@
 	left: 100vw;
 	height: 70vh;
 	width: 6vw;
-	background:radial-gradient(lightgreen 50%, green);
+	background:radial-gradient(rgba(248, 236, 74, 0.897) 50%, rgb(250, 132, 35));
 	border: 5px solid black;
 }
 .message {
@@ -36,15 +36,18 @@
 	color: black;
 	top: 30%;
 	left: 50%;
-	font-size: 4em;
+	font-size: 2em;
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
 .messageStyle{
-	background: white;
+	background: rgba(255, 251, 0, 0.479);
 	padding: 30px;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-	border-radius: 5%;
+	box-shadow: rgba(168, 166, 166, 0.747) 1px 4px 9px;
+	border-top-right-radius: 8%;
+	border-top-left-radius: 8%;
+	border-bottom-left-radius: 8%;
+	border-bottom-right-radius: 8%;
 }
 .score {
 	position: fixed;
@@ -52,7 +55,7 @@
 	height: 10vh;
 	font-size: 10vh;
 	font-weight: 100;
-	color: white;
+	color: rgba(255, 255, 255, 0.671);
 	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 	top: 0;
